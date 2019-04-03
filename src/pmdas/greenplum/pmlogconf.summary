@@ -1,0 +1,8 @@
+#pmlogconf-setup 2.0
+ident	greenplum summary information
+probe	greenplum.stat.all_tables.seq_scan ? include : exclude
+	greenplum.stat.database
+	greenplum.stat.all_tables
+	greenplum.stat.all_indexes
+	greenplum.statio.all_tables
+	greenplum.statio.all_indexes
